@@ -70,15 +70,11 @@ class Basic_Math_Operations:
             
 #7 ========================================    
             
-    @staticmethod
-    def hypotenuse():
+    def hypotenuse(self):
         base = int(input("What is the base length? "))
         perpen = int(input("What is the perpendicular edge length? "))
-        def calc_square(x):
-            sqr = x**2 
-            return sqr
-        a = calc_square(base)
-        b = calc_square(perpen)
+        a = self.square(base)
+        b = self.square(perpen)
         c = round(math.sqrt(a+b),3)
         return c  
     
@@ -137,7 +133,6 @@ while Yes == True:
         oper = input("What is the opperation? Choose: 'add','subtract','multiply', or 'divide'. ")
         y = x.perform_opp(num1, num2, oper)
         print('The answer is', y)
-        
 #4 ========================================
         
     elif choice == '4':
