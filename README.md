@@ -1,1 +1,2 @@
 # Assignment-5
+This project centers around the creation of a class. Inside the class there are ten methods that perform a task, such as summing numbers. Once the program is started, the user will be prompted to choose which method they would like to execute from the Basic_Math_Operations class. When they are finished running the program for the amount of times they want, the user types 'Exit' to end the program. 
