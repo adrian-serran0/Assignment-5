@@ -127,7 +127,7 @@ while Yes == True:
 #2 ========================================
         
     elif choice == '2':
-        print(x.sums())
+        print('The answer is', x.sums())
         
 #3 ========================================
         
@@ -136,14 +136,14 @@ while Yes == True:
         num2 = int(input("What is number two? "))
         oper = input("What is the opperation? Choose: 'add','subtract','multiply', or 'divide'. ")
         y = x.perform_opp(num1, num2, oper)
-        print(y)
+        print('The answer is', y)
         
 #4 ========================================
         
     elif choice == '4':
         numy = int(input("What number would you like to square? "))
         y = x.square(numy)
-        print(y)
+        print('The square is', y)
         
 #5 ========================================
         
@@ -162,7 +162,7 @@ while Yes == True:
     
     elif choice == '7':
         y = x.hypotenuse()
-        print(y)
+        print('The hypotenuse is', y)
         
 #8 ========================================
         
@@ -170,7 +170,7 @@ while Yes == True:
         width = int(input("What is the width of the rectangle? "))
         height = int(input("What is the height of the rectangle? "))
         y = x.rec_area(width, height)
-        print(y)
+        print('The area is', y)
         
 #9 ========================================
         
@@ -178,7 +178,7 @@ while Yes == True:
         base = int(input("What is the base of the exponential? "))
         exponent = int(input("What is the exponent? "))
         y = x.power(base, exponent)
-        print(y)
+        print('The answer is', y)
         
 #10 ========================================
         
